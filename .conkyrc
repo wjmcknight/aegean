@@ -1,0 +1,25 @@
+# Window settings
+own_window yes
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual yes
+own_window_argb_value 0
+double_buffer yes
+
+# Main settings
+alignment bottom_left
+background yes
+default_color grey
+use_xft yes
+font Monospace:size=8
+gap_x 5
+gap_y 5
+update_interval 0.3
+
+TEXT
+CPU:     ${cpu}%
+Kernel:  ${kernel} 
+Memory:  ${memperc}%
+Uptime:  ${uptime_short}
+Network: ${downspeedf}K${if_mpd_playing}
+Playing: ${mpd_smart}${endif}

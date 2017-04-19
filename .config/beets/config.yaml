@@ -1,0 +1,56 @@
+directory: ~/Music
+
+import:
+    write: yes
+
+    move: yes
+    copy: no
+    delete: no
+
+    autotag: yes
+    timid: no
+
+    resume: ask
+    incremental: no
+    none_rec_action: ask
+    log:
+
+    quiet: no
+    quiet_fallback: skip
+    default_action: apply
+
+    singletons: no
+    languages: []
+    detail: no
+    flat: no
+
+original_date: no
+per_disk_numbering: no
+clutter: ["Thumbs.db", ".DS_Store", "*.m3u", "*.jpg"]
+
+plugins: [
+    embedart,
+    scrub,
+    mbsync,
+    web
+]
+
+lyrics:
+    auto: yes
+    fallback: ''
+
+fetchart:
+    auto: yes
+    maxwidth: 300
+    cautious: true
+    cover_names: cover folder
+
+embedart:
+    auto: yes
+    maxwidth: 300
+
+scrub:
+    auto: yes
+
+web:
+    host: 192.168.1.10

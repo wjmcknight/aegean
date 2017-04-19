@@ -1,0 +1,54 @@
+! Colour definitions (Base 16)
+#define base00 #181818
+#define base01 #282828
+#define base02 #383838
+#define base03 #585858
+#define base04 #b8b8b8
+#define base05 #d8d8d8
+#define base06 #e8e8e8
+#define base07 #f8f8f8
+#define base08 #ab4642
+#define base09 #dc9656
+#define base0A #f7ca88
+#define base0B #a1b56c
+#define base0C #86c1b9
+#define base0D #7cafc2
+#define base0E #ba8baf
+#define base0F #a16946
+
+! Appearance
+urxvt.termName:     rxvt-unicode
+urxvt.scrollBar:    false
+urxvt.background:   base00
+urxvt.foreground:   base05
+
+! XFT settings
+Xft.dpi:        96
+Xft.antialias:  1
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcddefault
+Xft.rgba:       rgb
+
+! Fonts
+urxvt.font:         xft:Noto Mono:size=10
+urxvt.boldFont:     xft:Noto Mono:size=10
+urxvt.letterSpace:  -1
+
+! Colours
+urxvt.color0:   base00
+urxvt.color1:   base08
+urxvt.color2:   base0B
+urxvt.color3:   base0A
+urxvt.color4:   base0D
+urxvt.color5:   base0E
+urxvt.color6:   base0C
+urxvt.color7:   base05
+urxvt.color8:   base03
+urxvt.color9:   base09
+urxvt.color10:  base01
+urxvt.color11:  base02
+urxvt.color12:  base04
+urxvt.color13:  base06
+urxvt.color14:  base0F
+urxvt.color15:  base07
