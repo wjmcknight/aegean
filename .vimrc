@@ -77,7 +77,7 @@ if has("gui_running")
 	set guioptions+=e
 	set t_Co=256
 	set guitablabel=%M\ %t
-    set guifont=Liberation\ Mono\ 10
+    set guifont=Input\ Mono\ Light\ 10
     set lines=50 columns=125
     set background=dark
 endif
