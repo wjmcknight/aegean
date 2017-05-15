@@ -1,3 +1,4 @@
-Just some config files and stuff that I use on both my workstation and laptop.
-Nothing too useful to anyone else really. Just a standard Vim setup, a stupid
-Zsh environment, MPD madness, and .Xdefaults anarchy.
+# dotfiles
+
+I can almost guarantee that not much of this will be of much use to all y'all.
+Feel free to pick at, use, and improve on any of these.
