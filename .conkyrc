@@ -12,7 +12,7 @@ conky.config = {
     background = true,
     default_color = "white",
     use_xft = true,
-    font = "Input Mono:style=light:size=8",
+    font = "Noto Mono:size=8",
     gap_x = 5,
     gap_y = 5,
     update_interval = 0.3
