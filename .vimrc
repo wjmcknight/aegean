@@ -69,7 +69,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-materia
+colorscheme base16-tomorrow-night
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -77,7 +77,7 @@ if has("gui_running")
 	set guioptions+=e
 	set t_Co=256
 	set guitablabel=%M\ %t
-    set guifont=Noto\ Mono\ 10
+    set guifont=Hack\ 10
     set lines=50 columns=125
     set background=dark
 endif
