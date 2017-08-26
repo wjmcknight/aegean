@@ -10,7 +10,7 @@ conky.config = {
     -- Main settings
     alignment = "bottom_left",
     background = true,
-    default_color = "white",
+    default_color = "grey",
     use_xft = true,
     font = "Noto Mono:size=8",
     gap_x = 5,
@@ -19,10 +19,8 @@ conky.config = {
 }
 
 conky.text = [[
-CPU:     ${cpu}%
-Kernel:  ${kernel} 
-Memory:  ${memperc}%
-Uptime:  ${uptime_short}
-Network: ${downspeedf}K${if_mpd_playing}
-Playing: ${mpd_smart}${endif}
+CPU:       ${cpu}%
+Memory:    ${memperc}%
+Uptime:    ${uptime_short}
+Workspace: ${desktop} / ${desktop_number}
 ]]
