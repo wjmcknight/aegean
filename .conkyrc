@@ -22,5 +22,6 @@ conky.text = [[
 CPU:       ${cpu}%
 Memory:    ${memperc}%
 Uptime:    ${uptime_short}
-Workspace: ${desktop} / ${desktop_number}
+Workspace: ${desktop} / ${desktop_number}${if_mpd_playing}
+Playing:   ${mpd_smart}${endif}
 ]]
