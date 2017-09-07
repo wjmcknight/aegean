@@ -31,3 +31,5 @@ setopt extendedglob
 # Aliases
 alias ls="ls --color=auto"
 alias ll="ls -lh"
+
+source /usr/share/powerline/bindings/zsh/powerline.zsh
