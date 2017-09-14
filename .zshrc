@@ -5,7 +5,7 @@ colors
 # Prompt
 autoload -U promptinit
 promptinit
-prompt debian
+prompt suse
 
 # Completion
 autoload -U compinit
@@ -32,4 +32,4 @@ setopt extendedglob
 alias ls="ls --color=auto"
 alias ll="ls -lh"
 
-source /usr/share/powerline/bindings/zsh/powerline.zsh
+source /usr/share/powerline/zsh/powerline.zsh
