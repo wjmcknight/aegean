@@ -69,7 +69,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-tomorrow-night
+colorscheme base16-dracula
 
 " Set extra options when running in GUI mode
 if has("gui_running")
