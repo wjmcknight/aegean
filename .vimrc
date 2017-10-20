@@ -62,7 +62,6 @@ set novisualbell
 set t_vb=
 set tm=500
 
-
 """"""""""""""""""""""""""""""
 " Colours and fonts
 """"""""""""""""""""""""""""""
@@ -80,6 +79,7 @@ if has("gui_running")
     set guifont=Source\ Code\ Pro\ 10
     set lines=45 columns=125
     set background=dark
+    set number
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -107,9 +107,9 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=2
-set tabstop=2
-set softtabstop=2
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 
 " Linebreak on 500 characters
 set lbr
