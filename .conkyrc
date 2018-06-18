@@ -21,7 +21,6 @@ conky.config = {
 conky.text = [[
 CPU:       ${cpu}%
 Memory:    ${memperc}%
-Kernel:    ${kernel}
 Uptime:    ${uptime_short}
 Workspace: ${desktop} / ${desktop_number}${if_mpd_playing}
 Playing:   ${mpd_smart}${endif}
