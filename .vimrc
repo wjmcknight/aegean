@@ -68,7 +68,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-material
+colorscheme base16-circus
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -76,7 +76,7 @@ if has("gui_running")
 	set guioptions+=e
 	set t_Co=256
 	set guitablabel=%M\ %t
-    set guifont=Source\ Code\ Pro\ 10
+    set guifont=Hack\ 10
     set lines=45 columns=125
     set background=dark
     set number
@@ -107,9 +107,9 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 
 " Linebreak on 500 characters
 set lbr
