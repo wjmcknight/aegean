@@ -2,7 +2,7 @@
 
 " base16-vim (https://github.com/chriskempson/base16-vim)
 " by Chris Kempson (http://chriskempson.com)
-" Monokai scheme by Wimer Hazenberg (http://www.monokai.nl)
+" Codeschool scheme by blockloop
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -10,43 +10,43 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-monokai.sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-codeschool.sh"
   endif
 endif
 
 " GUI color definitions
-let s:gui00        = "272822"
-let g:base16_gui00 = "272822"
-let s:gui01        = "383830"
-let g:base16_gui01 = "383830"
-let s:gui02        = "49483e"
-let g:base16_gui02 = "49483e"
-let s:gui03        = "75715e"
-let g:base16_gui03 = "75715e"
-let s:gui04        = "a59f85"
-let g:base16_gui04 = "a59f85"
-let s:gui05        = "f8f8f2"
-let g:base16_gui05 = "f8f8f2"
-let s:gui06        = "f5f4f1"
-let g:base16_gui06 = "f5f4f1"
-let s:gui07        = "f9f8f5"
-let g:base16_gui07 = "f9f8f5"
-let s:gui08        = "f92672"
-let g:base16_gui08 = "f92672"
-let s:gui09        = "fd971f"
-let g:base16_gui09 = "fd971f"
-let s:gui0A        = "f4bf75"
-let g:base16_gui0A = "f4bf75"
-let s:gui0B        = "a6e22e"
-let g:base16_gui0B = "a6e22e"
-let s:gui0C        = "a1efe4"
-let g:base16_gui0C = "a1efe4"
-let s:gui0D        = "66d9ef"
-let g:base16_gui0D = "66d9ef"
-let s:gui0E        = "ae81ff"
-let g:base16_gui0E = "ae81ff"
-let s:gui0F        = "cc6633"
-let g:base16_gui0F = "cc6633"
+let s:gui00        = "232c31"
+let g:base16_gui00 = "232c31"
+let s:gui01        = "1c3657"
+let g:base16_gui01 = "1c3657"
+let s:gui02        = "2a343a"
+let g:base16_gui02 = "2a343a"
+let s:gui03        = "3f4944"
+let g:base16_gui03 = "3f4944"
+let s:gui04        = "84898c"
+let g:base16_gui04 = "84898c"
+let s:gui05        = "9ea7a6"
+let g:base16_gui05 = "9ea7a6"
+let s:gui06        = "a7cfa3"
+let g:base16_gui06 = "a7cfa3"
+let s:gui07        = "b5d8f6"
+let g:base16_gui07 = "b5d8f6"
+let s:gui08        = "2a5491"
+let g:base16_gui08 = "2a5491"
+let s:gui09        = "43820d"
+let g:base16_gui09 = "43820d"
+let s:gui0A        = "a03b1e"
+let g:base16_gui0A = "a03b1e"
+let s:gui0B        = "237986"
+let g:base16_gui0B = "237986"
+let s:gui0C        = "b02f30"
+let g:base16_gui0C = "b02f30"
+let s:gui0D        = "484d79"
+let g:base16_gui0D = "484d79"
+let s:gui0E        = "c59820"
+let g:base16_gui0E = "c59820"
+let s:gui0F        = "c98344"
+let g:base16_gui0F = "c98344"
 
 " Terminal color definitions
 let s:cterm00        = "00"
@@ -99,22 +99,22 @@ endif
 
 " Neovim terminal colours
 if has("nvim")
-  let g:terminal_color_0 =  "#272822"
-  let g:terminal_color_1 =  "#f92672"
-  let g:terminal_color_2 =  "#a6e22e"
-  let g:terminal_color_3 =  "#f4bf75"
-  let g:terminal_color_4 =  "#66d9ef"
-  let g:terminal_color_5 =  "#ae81ff"
-  let g:terminal_color_6 =  "#a1efe4"
-  let g:terminal_color_7 =  "#f8f8f2"
-  let g:terminal_color_8 =  "#75715e"
-  let g:terminal_color_9 =  "#f92672"
-  let g:terminal_color_10 = "#a6e22e"
-  let g:terminal_color_11 = "#f4bf75"
-  let g:terminal_color_12 = "#66d9ef"
-  let g:terminal_color_13 = "#ae81ff"
-  let g:terminal_color_14 = "#a1efe4"
-  let g:terminal_color_15 = "#f9f8f5"
+  let g:terminal_color_0 =  "#232c31"
+  let g:terminal_color_1 =  "#2a5491"
+  let g:terminal_color_2 =  "#237986"
+  let g:terminal_color_3 =  "#a03b1e"
+  let g:terminal_color_4 =  "#484d79"
+  let g:terminal_color_5 =  "#c59820"
+  let g:terminal_color_6 =  "#b02f30"
+  let g:terminal_color_7 =  "#9ea7a6"
+  let g:terminal_color_8 =  "#3f4944"
+  let g:terminal_color_9 =  "#2a5491"
+  let g:terminal_color_10 = "#237986"
+  let g:terminal_color_11 = "#a03b1e"
+  let g:terminal_color_12 = "#484d79"
+  let g:terminal_color_13 = "#c59820"
+  let g:terminal_color_14 = "#b02f30"
+  let g:terminal_color_15 = "#b5d8f6"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_5
   if &background == "light"
@@ -126,7 +126,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-monokai"
+let g:colors_name = "base16-codeschool"
 
 " Highlighting function
 function! g:Base16hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
