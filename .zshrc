@@ -1,3 +1,6 @@
+# Path
+fpath=( "$HOME/.zfunctions" $fpath )
+
 # Colours
 autoload -U colors
 colors
