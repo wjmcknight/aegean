@@ -8,7 +8,7 @@ colors
 # Prompt
 autoload -U promptinit
 promptinit
-prompt debian
+prompt pure
 
 # Completion
 autoload -U compinit
