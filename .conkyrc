@@ -12,7 +12,7 @@ conky.config = {
     background = true,
     default_color = "grey",
     use_xft = true,
-    font = "Noto Mono:size=8",
+    font = "DejaVu Sans Mono:size=8:style=Book",
     gap_x = 5,
     gap_y = 5,
     update_interval = 0.3
