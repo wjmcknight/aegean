@@ -12,9 +12,9 @@ conky.config = {
     background = true,
     default_color = "grey",
     use_xft = true,
-    font = "DejaVu Sans Mono:size=8:style=Book",
+    font = "monospace:size=9",
     gap_x = 5,
-    gap_y = 5,
+    gap_y = 39,
     update_interval = 0.3
 }
 
