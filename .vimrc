@@ -68,7 +68,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-oceanicnext
+colorscheme base16-atlas
 
 " Set extra options when running in GUI mode
 if has("gui_running")
