@@ -1,0 +1,25 @@
+[mpd]
+mpd_music_dir = "~/Music"
+mpd_host      = "localhost"
+mpd_port      = "6600"
+
+[visualizer]
+visualizer_fifo_path   = "/tmp/mpd.fifo"
+visualizer_in_stereo   = "no"
+visualizer_type        = "ellipse"
+visualizer_output_name = "my_fifo"
+visualizer_color       = "default"
+
+[header]
+header_visibility            = "no"
+header_window_color          = "default"
+playlist_shorten_total_times = "yes"
+volume_color                 = "default"
+state_line_color             = "black"
+
+[global]
+colors_enabled      = "yes"
+main_window_color   = "default"
+centered_cursor     = "yes"
+enable_window_title = "yes"
+external_editor     = "vim"
