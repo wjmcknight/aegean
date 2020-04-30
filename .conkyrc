@@ -13,8 +13,8 @@ conky.config = {
     default_color = "grey",
     use_xft = true,
     font = "monospace:size=9",
-    gap_x = 5,
-    gap_y = 39,
+    gap_x = 10,
+    gap_y = 42,
     update_interval = 0.3
 }
 
@@ -22,5 +22,6 @@ conky.text = [[
 CPU:       ${cpu}%
 Memory:    ${memperc}%
 Uptime:    ${uptime_short}
-Workspace: ${desktop} / ${desktop_number}
+Workspace: ${desktop} / ${desktop_number}${if_mpd_playing}
+Playing:   ${mpd_artist} - ${mpd_title}${endif}
 ]]
