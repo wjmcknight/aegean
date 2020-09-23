@@ -68,7 +68,8 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-atlas
+packadd! dracula
+colorscheme dracula
 
 " Set extra options when running in GUI mode
 if has("gui_running")
