@@ -68,8 +68,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-packadd! dracula
-colorscheme dracula
+colorscheme base16-dracula
 
 " Set extra options when running in GUI mode
 if has("gui_running")
