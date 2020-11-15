@@ -68,7 +68,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-dracula
+colorscheme base16-onedark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
