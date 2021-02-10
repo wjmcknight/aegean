@@ -1,10 +1,10 @@
 # Main repos
-deb http://mirror.it.ubc.ca/debian/ buster main contrib non-free
-deb-src http://mirror.it.ubc.ca/debian/ buster main contrib non-free
+deb http://mirror.csclub.uwaterloo.ca/debian/ buster main contrib non-free
+deb-src http://mirror.csclub.uwaterloo.ca/debian/ buster main contrib non-free
 
-deb http://mirror.it.ubc.ca/debian-security buster/updates main contrib non-free
-deb-src http://mirror.it.ubc.ca/debian-security buster/updates main contrib non-free
+deb http://mirror.csclub.uwaterloo.ca/debian-security buster/updates main contrib non-free
+deb-src http://mirror.csclub.uwaterloo.ca/debian-security buster/updates main contrib non-free
 
 # buster-updates, previously known as 'volatile'
-deb http://mirror.it.ubc.ca/debian/ buster-updates main contrib non-free
-deb-src http://mirror.it.ubc.ca/debian/ buster-updates main contrib non-free
+deb http://mirror.csclub.uwaterloo.ca/debian/ buster-updates main contrib non-free
+deb-src http://mirror.csclub.uwaterloo.ca/debian/ buster-updates main contrib non-free
