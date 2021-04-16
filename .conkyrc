@@ -12,7 +12,7 @@ conky.config = {
     background = true,
     default_color = "grey",
     use_xft = true,
-    font = "Hack:size=9",
+    font = "mononoki:size=10",
     gap_x = 10,
     gap_y = 42,
     update_interval = 0.3
@@ -22,6 +22,6 @@ conky.text = [[
 CPU:       ${cpu}%
 Memory:    ${memperc}%
 Uptime:    ${uptime_short}
-Workspace: ${desktop} / ${desktop_number}${if_mpd_playing}
-Playing:   ${mpd_artist} - ${mpd_title}${endif}
+Kernel:    ${kernel}
+Workspace: ${desktop} / ${desktop_number}
 ]]
