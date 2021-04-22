@@ -12,7 +12,7 @@ conky.config = {
     background = true,
     default_color = "grey",
     use_xft = true,
-    font = "mononoki:size=10",
+    font = "JetBrains Mono:size=9",
     gap_x = 10,
     gap_y = 42,
     update_interval = 0.3
