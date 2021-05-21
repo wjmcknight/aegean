@@ -19,9 +19,16 @@ conky.config = {
 }
 
 conky.text = [[
-CPU:       ${cpu}%
-Memory:    ${memperc}%
-Uptime:    ${uptime_short}
-Kernel:    ${kernel}
+${nodename}: ${kernel}
+${hr 1}
+Uptime: ${uptime_short}
+${hr 1}
+CPU:  ${cpubar 9,120} ${cpu}%
+RAM:  ${membar 9,120} ${memperc}%
+Swap: ${swapbar 9,120} ${swapperc}%
+${hr 1}
+/:     ${fs_bar 9,120 /} ${fs_used_perc /}%
+/home: ${fs_bar 9,120 /home} ${fs_used_perc /home}%
+${hr 1}
 Workspace: ${desktop} / ${desktop_number}
 ]]
