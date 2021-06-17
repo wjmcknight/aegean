@@ -12,15 +12,13 @@ conky.config = {
     background = true,
     default_color = "grey",
     use_xft = true,
-    font = "JetBrains Mono:size=9",
+    font = "Cascadia Mono SemiLight:size=9",
     gap_x = 10,
     gap_y = 42,
     update_interval = 0.3
 }
 
 conky.text = [[
-${nodename}: ${kernel}
-${hr 1}
 Uptime: ${uptime_short}
 ${hr 1}
 CPU:  ${cpubar 9,120} ${cpu}%
