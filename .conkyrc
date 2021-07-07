@@ -12,21 +12,22 @@ conky.config = {
     background = true,
     default_color = "grey",
     use_xft = true,
-    font = "Cascadia Mono SemiLight:size=9",
+    font = "JetBrains Mono Light:size=9",
     gap_x = 10,
     gap_y = 42,
     update_interval = 0.3
 }
 
 conky.text = [[
-Uptime: ${uptime_short}
-${hr 1}
-CPU:  ${cpubar 9,120} ${cpu}%
-RAM:  ${membar 9,120} ${memperc}%
-Swap: ${swapbar 9,120} ${swapperc}%
-${hr 1}
-/:     ${fs_bar 9,120 /} ${fs_used_perc /}%
-/home: ${fs_bar 9,120 /home} ${fs_used_perc /home}%
-${hr 1}
+Uptime:    ${uptime_short}
+Kernel:    ${kernel}
+
+CPU:       ${cpu}%
+RAM:       ${memperc}%
+Swap:      ${swapperc}%
+
+/:         ${fs_used_perc /}%
+/home:     ${fs_used_perc /home}%
+
 Workspace: ${desktop} / ${desktop_number}
 ]]
