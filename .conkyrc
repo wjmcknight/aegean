@@ -19,11 +19,11 @@ conky.config = {
 }
 
 conky.text = [[
-CPU:       ${cpu}%
-RAM:       ${memperc}%
+CPU       ${cpu}%
+RAM       ${memperc}%
 
-/:         ${fs_used_perc /}%
-/home:     ${fs_used_perc /home}%
+/         ${fs_used_perc /}%
+/home     ${fs_used_perc /home}%
 
-Workspace: ${desktop} / ${desktop_number}
+Workspace ${desktop} / ${desktop_number}
 ]]
