@@ -3,3 +3,5 @@
 	email = jmcknight@gmail.com
 [help]
 	autocorrect = 3
+[pull]
+	rebase = false
