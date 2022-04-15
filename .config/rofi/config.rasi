@@ -4,5 +4,5 @@ configuration {
   disable-history: true;
   separator-style: "solid";
   scrollbar-width: 10;
-  theme: "~/.config/rofi/themes/base16-onedark";
+  theme: "~/.config/rofi/themes/base16-gruvbox-dark-soft";
 }

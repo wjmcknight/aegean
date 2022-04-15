@@ -12,7 +12,6 @@ filetype indent on
 " Set to auto read when a file is changed from the outside
 set autoread
 
-
 """"""""""""""""""""""""""""""
 " VIM user interface:
 """"""""""""""""""""""""""""""
@@ -68,7 +67,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-onedark
+colorscheme base16-gruvbox-dark-soft
 
 " Set extra options when running in GUI mode
 if has("gui_running")
