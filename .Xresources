@@ -9,11 +9,11 @@ Xft.rgba:      rgb
 ! URxvt specific things
 URxvt.secondaryScreen:   1
 URxvt.secondaryScroll:   0
-URxvt.font:              xft:JetBrains Mono NL:size=10
-URxvt.boldFont:          xft:JetBrains Mono NL:size=10
+URxvt.font:              xft:Hack:size=10
+URxvt.boldFont:          xft:Hack:size=10
 URxvt.geometry:          80x40
 URxvt.scrollBar:         false
-URXvt.letterSpace:       -1
+URxvt.letterSpace:       -1
 URxvt.keysym.Shift-Up:   command:\033]720;1\007
 URxvt.keysym.Shift-Down: command:\033]721;1\007
 
