@@ -36,3 +36,4 @@ setopt extendedglob
 # Aliases
 alias ls="ls --color=auto"
 alias ll="ls -lh"
+alias feh="feh -."
