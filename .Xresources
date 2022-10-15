@@ -17,23 +17,23 @@ URxvt.letterSpace:       -1
 URxvt.keysym.Shift-Up:   command:\033]720;1\007
 URxvt.keysym.Shift-Down: command:\033]721;1\007
 
-! Colours: base16-gruvbox-dark-soft
-#define base00 #32302f
-#define base01 #3c3836
-#define base02 #504945
-#define base03 #665c54
-#define base04 #bdae93
-#define base05 #d5c4a1
-#define base06 #ebdbb2
-#define base07 #fbf1c7
-#define base08 #fb4934
-#define base09 #fe8019
-#define base0A #fabd2f
-#define base0B #b8bb26
-#define base0C #8ec07c
-#define base0D #83a598
-#define base0E #d3869b
-#define base0F #d65d0e
+! Colours: base16-onedark
+#define base00 #282c34
+#define base01 #353b45
+#define base02 #3e4451
+#define base03 #545862
+#define base04 #565c64
+#define base05 #abb2bf
+#define base06 #b6bdca
+#define base07 #c8ccd4
+#define base08 #e06c75
+#define base09 #d19a66
+#define base0A #e5c07b
+#define base0B #98c379
+#define base0C #56b6c2
+#define base0D #61afef
+#define base0E #c678dd
+#define base0F #be5046
 
 *foreground:  base05
 #ifdef background_opacity
@@ -59,9 +59,3 @@ URxvt.keysym.Shift-Down: command:\033]721;1\007
 *color13: base0E
 *color14: base0C
 *color15: base07
-*color16: base09
-*color17: base0F
-*color18: base01
-*color19: base02
-*color20: base04
-*color21: base06
