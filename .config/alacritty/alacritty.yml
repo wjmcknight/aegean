@@ -1,0 +1,42 @@
+import:
+  - ~/.config/alacritty/colors/base16-onedark.yml
+
+env:
+  TERM: alacritty
+
+window:
+  dimensions:
+    columns: 80
+    lines:   40
+
+  padding:
+    x: 1
+    y: 1
+
+  title:         Alacritty
+  dynamic_title: true
+
+  scrolling:
+    history:    10000
+    multiplier: 3
+
+font:
+  normal:
+    family: Hack
+    style:  Regular
+
+  bold:
+    family: Hack
+    style:  Regular
+
+  italic:
+    family: Hack
+    style:  Regular
+
+  bold_italic:
+    family: Hack
+    style:  Regular
+
+  size: 10.0
+
+  draw_bold_text_with_bright_colors: false
