@@ -76,7 +76,7 @@ if has("gui_running")
 	set t_Co=256
 	set guitablabel=%M\ %t
     set guifont=Hack\ 10
-    set lines=42 columns=125
+    set lines=52 columns=125
     set background=dark
     set number
 endif
