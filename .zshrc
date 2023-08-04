@@ -1,6 +1,4 @@
 # Path
-fpath=( "$HOME/.zfunctions" $fpath )
-
 export PATH="$HOME/.local/bin:$PATH"
 
 # Colours
@@ -10,7 +8,7 @@ colors
 # Prompt
 autoload -U promptinit
 promptinit
-prompt debian
+prompt redhat
 
 # Completion
 autoload -U compinit
@@ -32,6 +30,10 @@ setopt hist_ignore_space
 # Misc.
 setopt autocd
 setopt extendedglob
+
+# Keybindings
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
 
 # Aliases
 alias ls="ls --color=auto"
