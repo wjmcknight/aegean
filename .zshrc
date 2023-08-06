@@ -1,5 +1,5 @@
 # Path
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:/usr/lib/ruby/gems/3.2.0/bin:$PATH"
 
 # Colours
 autoload -U colors
