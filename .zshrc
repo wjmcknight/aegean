@@ -32,8 +32,10 @@ setopt autocd
 setopt extendedglob
 
 # Keybindings
-bindkey "^[[H" beginning-of-line
-bindkey "^[[F" end-of-line
+bindkey "^[[2~" overwrite-mode    # Insert
+bindkey "^[[3~" delete-char       # Delete
+bindkey "^[[H"  beginning-of-line # Home
+bindkey "^[[F"  end-of-line       # End
 
 # Aliases
 alias ls="ls --color=auto"
