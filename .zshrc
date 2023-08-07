@@ -2,17 +2,14 @@
 export PATH="$HOME/.local/bin:/usr/lib/ruby/gems/3.2.0/bin:$PATH"
 
 # Colours
-autoload -U colors
-colors
+autoload -U colors && colors
 
 # Prompt
-autoload -U promptinit
-promptinit
+autoload -U promptinit && promptinit
 prompt redhat
 
 # Completion
-autoload -U compinit
-compinit
+autoload -U compinit && compinit
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
 
