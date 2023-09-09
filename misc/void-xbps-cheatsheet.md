@@ -2,7 +2,7 @@
 
 This is not intended to resemble any sort of comprehensive guide or thorough
 document. It is something I've thrown together covering useful package
-management commands in [Void Linux] now that it's essentially my daily driver.
+management commands in [Void Linux] now that it's my daily driver.
 
 Coming from Debian these are all pretty decent equivalents to routine commands
 I'd use to maintain packages.
@@ -96,6 +96,9 @@ sudo xbps-remove -o
 ```
 
 ### List Removable Kernels:
+
+In Debian `apt autoremove` will remove older kernels but Void does this a bit
+differently using its own tool.
 
 ```console
 sudo vkpurge list
