@@ -7,16 +7,24 @@ management commands in [Void Linux] now that it's essentially my daily driver.
 Coming from Debian these are all pretty decent equivalents to routine commands
 I'd use to maintain packages.
 
-## Install Package:
+## Install Packages:
 
 ```console
 sudo xbps-install -S <pattern>
 ```
 
-## Remove Package:
+## Remove Packages:
 
 ```console
 sudo xbps-remove <pattern>
+```
+
+## Remove Packages Recursively
+
+This does what `apt purge` does in Debian.
+
+```console
+sudo xbps-remove -R <pattern>
 ```
 
 ## Update Packages:
