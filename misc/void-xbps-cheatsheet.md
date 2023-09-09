@@ -42,13 +42,13 @@ xbps-query -f <package>
 ### Local:
 
 ```console
-xbps-query -s <pattern>
+xbps-query -s <package>
 ```
 
 ### Remote:
 
 ```console
-xbps-query -Rs <pattern>
+xbps-query -Rs <package>
 ```
 
 ## Reverse Package Search by Files:
@@ -76,13 +76,13 @@ xlocate <pattern>
 
 ## Cleanups:
 
-### Clean Downloaded Package Cache:
+### Remove Downloaded Packages:
 
 ```console
 sudo xbps-remove -O
 ```
 
-### Clean Orphan Packages:
+### Remove Orphan Packages:
 
 Given that Void is a [rolling release] Linux distro you'll run into instances
 where libraries may be updated to a new major version, making the previously
