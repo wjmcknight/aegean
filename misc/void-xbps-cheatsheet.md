@@ -62,15 +62,9 @@ xbps-query -Rs <package>
 ## Reverse Package Search by Files:
 
 First you'll want to install the `xtools` package which contains helper
-programs for XBPS:
-
-```console
-sudo xbps-install -S xtools
-```
-
-Next we'll sync with Void's xlocate database. It's recommended to run the
-following command before `xlocate` and you'll need to execute it periodically
-since the xlocate database is pulled from a Git repo.
+programs for XBPS. Next we'll sync with Void's xlocate database by executing
+the following command which pulls from a Git repo. You'll want to run this
+periodically:
 
 ```console
 xlocate -S
