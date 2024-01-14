@@ -1,0 +1,19 @@
+import = ["/home/john/.config/alacritty/colors/base16-onedark-256.toml"]
+
+[env]
+TERM = "alacritty"
+
+[font]
+normal      = { family = "Hack", style = "Regular" }
+bold        = { family = "Hack", style = "Regular" }
+bold_italic = { family = "Hack", style = "Regular" }
+italic      = { family = "Hack", style = "Regular" }
+size        = 10.0
+
+[window]
+dimensions    = { columns = 80, lines = 40 }
+padding       = { x = 1, y = 1 }
+
+[scrolling]
+history = 10000
+multiplier = 3
