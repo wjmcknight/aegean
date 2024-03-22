@@ -1,8 +1,0 @@
-configuration {
-  modi: "window,drun";
-  font: "JetBrains Mono Light 10";
-  disable-history: true;
-  separator-style: "solid";
-  scrollbar-width: 10;
-  theme: "~/.config/rofi/themes/base16-onedark";
-}
