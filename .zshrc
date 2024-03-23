@@ -1,5 +1,5 @@
 # Path
-export PATH="$HOME/.local/bin:/usr/lib/ruby/gems/3.2.0/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/pip/env/bin:/usr/lib/ruby/gems/3.2.0/bin:$PATH"
 
 # Colours
 autoload -U colors && colors
@@ -34,7 +34,12 @@ bindkey "^[[3~" delete-char       # Delete
 bindkey "^[[H"  beginning-of-line # Home
 bindkey "^[[F"  end-of-line       # End
 
+# Fix Home and End keys in tmux
+bindkey "\E[1~" beginning-of-line # Home
+bindkey "\E[4~" end-of-line       # End
+
 # Aliases
 alias ls="ls --color=auto"
 alias ll="ls -lh"
 alias feh="feh -."
+alias pipenv="source ~/pip/env/bin/activate"
