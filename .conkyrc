@@ -22,12 +22,11 @@ conky.text = [[
 Hostname  ${nodename_short}
 Kernel    ${kernel}
 
-CPU       ${cpu}%
+CPU       ${cpu cpu0}%
 RAM       ${memperc}%
 
 /         ${fs_used_perc /}%
 /home     ${fs_used_perc /home}%
 
-Workspace ${desktop} / ${desktop_number}${if_mpd_playing}
-Playing   ${mpd_title} by ${mpd_artist} ($mpd_length})${endif}
+Workspace ${desktop} / ${desktop_number}
 ]]
