@@ -1,0 +1,12 @@
+configuration {
+  modes: "drun";
+  sort:  true;
+  font:  "Hack 10";
+}
+
+@theme "base16-helios"
+
+window {
+  width:  30%;
+  height: 30%;
+}
