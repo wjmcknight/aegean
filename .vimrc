@@ -67,7 +67,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-helios
+colorscheme base16-gruvbox-dark-medium
 
 " Set extra options when running in GUI mode
 if has("gui_running")

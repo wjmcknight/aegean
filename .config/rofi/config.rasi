@@ -1,10 +1,10 @@
 configuration {
-  modes: "drun";
+  modes: "drun,window";
   sort:  true;
   font:  "Hack 10";
 }
 
-@theme "base16-helios"
+@theme "base16-gruvbox-dark-medium"
 
 window {
   width:  30%;
