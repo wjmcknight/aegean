@@ -1,0 +1,11 @@
+# MPD bits
+mpd_host      = "localhost"
+mpd_port      = "6600"
+mpd_music_dir = "~/Music"
+
+# Visual bits
+song_status_format     = "{%a} - {%t} ({%y})"
+progressbar_look       = "——"
+titles_visibility      = "no"
+display_volume_level   = "no"
+display_remaining_time = "no"
