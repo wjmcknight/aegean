@@ -4,7 +4,7 @@ configuration {
   font:  "Hack 10";
 }
 
-@theme "base16-gruvbox-dark-medium"
+@theme "base16-eighties"
 
 window {
   width:  30%;
