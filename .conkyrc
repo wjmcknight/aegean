@@ -8,7 +8,7 @@ conky.config = {
     double_buffer = true,
 
     -- Main settings
-    alignment = "bottom_left",
+    alignment = "bottom_middle",
     background = true,
     default_color = "grey",
     use_xft = true,
@@ -19,14 +19,5 @@ conky.config = {
 }
 
 conky.text = [[
-Hostname  ${nodename_short}
-Kernel    ${kernel}
-
-CPU       ${cpu cpu0}%
-RAM       ${memperc}%
-
-/         ${fs_used_perc /}%
-/home     ${fs_used_perc /home}%
-
-Workspace ${desktop} / ${desktop_number}
+CPU: ${cpu cpu0}%     Mem: ${memperc}%     Workspace: ${desktop} / ${desktop_number}     /: ${fs_used_perc /}%     /home: ${fs_used_perc /home}%${if_mpd_playing}     Playing: ${mpd_smart}${endif}
 ]]
