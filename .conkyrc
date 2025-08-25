@@ -14,10 +14,10 @@ conky.config = {
     use_xft = true,
     font = "Hack:size=9",
     gap_x = 10,
-    gap_y = 42,
+    gap_y = 0,
     update_interval = 0.3
 }
 
 conky.text = [[
-CPU: ${cpu cpu0}%     Mem: ${memperc}%     Workspace: ${desktop} / ${desktop_number}     /: ${fs_used_perc /}%     /home: ${fs_used_perc /home}%${if_mpd_playing}     Playing: ${mpd_smart}${endif}
+CPU: ${cpu cpu0}%     Mem: ${memperc}%     Workspace: ${desktop} / ${desktop_number}     /: ${fs_used_perc /}%     /home: ${fs_used_perc /home}%${if_mpd_playing}     Playing: ${mpd_smart} (${mpd_length})${endif}
 ]]
