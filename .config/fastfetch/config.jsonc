@@ -7,7 +7,7 @@
 
   "display": {
     "key": {
-      "width": 12,
+      "width": 11
     }
   },
 
@@ -35,6 +35,6 @@
       "format": "{pretty-name}"
     },
 
-    "break",
+    "break"
   ]
 }
