@@ -1,5 +1,5 @@
 # Path
-export PATH="$HOME/.local/bin:$HOME/PIP/env/bin:/usr/lib/ruby/gems/3.2.0/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/PIP/spotdl/env/bin:/usr/lib/ruby/gems/3.4.0/bin:$PATH"
 
 # Colours
 autoload -U colors && colors
@@ -43,3 +43,9 @@ alias ls="ls --color=auto"
 alias ll="ls -lh"
 alias feh="feh -."
 alias pipenv="source ~/PIP/env/bin/activate"
+alias onefetch="onefetch --no-title -d created"
+alias pwr="pw-record -P '{ stream.capture.sink=true }'"
+
+# fzf things
+source <(fzf --zsh)
+export FZF_DEFAULT_OPTS="--preview='bat --color always {}'"
