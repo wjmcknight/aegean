@@ -1,0 +1,25 @@
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 10.0
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[font.bold]
+style = "Regular"
+
+[font.bold_italic]
+style = "Regular"
+
+[font.italic]
+style = "Regular"
+
+[window.dimensions]
+columns = 80
+lines = 40
+
+[general]
+import = ["~/.config/alacritty/colors/base16-gruvbox-dark-medium-256.toml"]
