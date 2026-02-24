@@ -1,4 +1,5 @@
 # Path
+#fpath=("$HOME/.zfunctions" $fpath)
 export PATH="$HOME/.local/bin:$HOME/PIP/spotdl/env/bin:/usr/lib/ruby/gems/3.4.0/bin:$PATH"
 
 # Colours
