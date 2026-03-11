@@ -21,5 +21,8 @@ style = "Regular"
 columns = 80
 lines = 40
 
+[window]
+title = "Terminal"
+
 [general]
 import = ["~/.config/alacritty/colors/base16-gruvbox-dark-medium-256.toml"]
