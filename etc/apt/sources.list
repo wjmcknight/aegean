@@ -1,10 +1,9 @@
 # Main repos
-deb http://mirror.csclub.uwaterloo.ca/debian/ bullseye main contrib non-free
-deb-src http://mirror.csclub.uwaterloo.ca/debian/ bullseye main contrib non-free
+deb http://mirror.csclub.uwaterloo.ca/debian/ trixie main non-free-firmware non-free contrib
+deb-src http://mirror.csclub.uwaterloo.ca/debian/ trixie main non-free-firmware non-free contrib
 
-deb http://mirror.csclub.uwaterloo.ca/debian-security bullseye-security main contrib non-free
-deb-src http://mirror.csclub.uwaterloo.ca/debian-security bullseye-security main contrib non-free
+deb http://mirror.csclub.uwaterloo.ca/debian-security trixie-security main non-free-firmware non-free contrib
+deb-src http://mirror.csclub.uwaterloo.ca/debian-security trixie-security main non-free-firmware non-free contrib
 
-# bullseye-updates, to get updates before a point release is made;
-deb http://mirror.csclub.uwaterloo.ca/debian/ bullseye-updates main contrib non-free
-deb-src http://mirror.csclub.uwaterloo.ca/debian/ bullseye-updates main contrib non-free
+deb http://mirror.csclub.uwaterloo.ca/debian/ trixie-updates main non-free-firmware non-free contrib
+deb-src http://mirror.csclub.uwaterloo.ca/debian/ trixie-updates main non-free-firmware non-free contrib
