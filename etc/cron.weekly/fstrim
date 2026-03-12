@@ -1,5 +1,0 @@
-#!/bin/sh
-
-fstrim /boot/efi
-fstrim /
-fstrim /home
