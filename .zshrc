@@ -1,5 +1,5 @@
 # Path
-#fpath=("$HOME/.zfunctions" $fpath)
+fpath=("$HOME/.zfunctions" $fpath)
 export PATH="$HOME/.local/bin:$HOME/PIP/spotdl/env/bin:/usr/lib/ruby/gems/3.4.0/bin:$PATH"
 
 # Colours
@@ -7,7 +7,7 @@ autoload -U colors && colors
 
 # Prompt
 autoload -U promptinit && promptinit
-prompt redhat
+prompt drabian
 
 # Completion
 autoload -U compinit && compinit
@@ -44,9 +44,9 @@ alias ls="ls --color=auto"
 alias ll="ls -lh"
 alias feh="feh -."
 alias pipenv="source ~/PIP/env/bin/activate"
-alias onefetch="onefetch --no-title -d created"
 alias pwr="pw-record -P '{ stream.capture.sink=true }'"
+alias zola="flatpak run org.getzola.zola"
 
 # fzf things
 source <(fzf --zsh)
-export FZF_DEFAULT_OPTS="--preview='bat --color always {}'"
+export FZF_DEFAULT_OPTS="--preview='batcat --color always {}'"
