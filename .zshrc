@@ -46,6 +46,7 @@ alias feh="feh -."
 alias pipenv="source ~/PIP/env/bin/activate"
 alias pwr="pw-record -P '{ stream.capture.sink=true }'"
 alias zola="flatpak run org.getzola.zola"
+alias compter="git ls-files | xargs wc -l"
 
 # fzf things
 source <(fzf --zsh)
