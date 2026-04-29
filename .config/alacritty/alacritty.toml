@@ -2,27 +2,19 @@
 TERM = "xterm-256color"
 
 [font]
-size = 10.0
-
-[font.normal]
-family = "Hack"
-style = "Regular"
-
-[font.bold]
-style = "Regular"
-
-[font.bold_italic]
-style = "Regular"
-
-[font.italic]
-style = "Regular"
-
-[window.dimensions]
-columns = 80
-lines = 40
+normal      = { family = "Hack", style = "Regular" }
+bold        = { style = "Regular" }
+bold_italic = { style = "Regular" }
+italic      = { style = "Regular" }
+size        = 10.0
 
 [window]
-title = "Terminal"
+dimensions = { columns = 80, lines = 40 }
+padding    = { x = 2, y = 0 }
+title      = "Terminal"
+
+[mouse]
+hide_when_typing = true
 
 [general]
 import = ["~/.config/alacritty/colors/base16-gruvbox-dark-medium-256.toml"]
