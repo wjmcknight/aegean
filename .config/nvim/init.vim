@@ -70,7 +70,7 @@ set number
 " Enable syntax highlighting
 syntax enable
 
-colorscheme base16-gruvbox-dark-medium
+colorscheme base16-eighties
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
