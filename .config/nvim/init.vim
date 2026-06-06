@@ -108,3 +108,6 @@ set wrap
 
 " We're running Vim, not Vi
 set nocompatible
+
+" Uncomment for kill switch on laptop use to disable mouse/trackpad
+"set mouse=
