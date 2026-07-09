@@ -1,6 +1,6 @@
 # Path
 fpath=("$HOME/.zfunctions" $fpath)
-export PATH="$HOME/.local/bin:$HOME/PIP/spotdl/env/bin:/usr/lib/ruby/gems/3.4.0/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Colours
 autoload -U colors && colors
@@ -42,10 +42,7 @@ bindkey "\E[4~" end-of-line       # End
 # Aliases
 alias ls="ls --color=auto"
 alias ll="ls -lh"
-alias feh="feh -."
-alias pipenv="source ~/PIP/env/bin/activate"
 alias pwr="pw-record -P '{ stream.capture.sink=true }'"
-alias zola="flatpak run org.getzola.zola"
 alias compter="git ls-files | xargs wc -l"
 
 # fzf things
