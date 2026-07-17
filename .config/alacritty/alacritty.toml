@@ -2,16 +2,17 @@
 TERM = "xterm-256color"
 
 [font]
-normal      = { family = "Hack", style = "Regular" }
+normal      = { family = "Adwaita Mono", style = "Regular" }
 bold        = { style = "Regular" }
 bold_italic = { style = "Regular" }
 italic      = { style = "Regular" }
-size        = 10.0
+size        = 11.0
 
 [window]
-dimensions = { columns = 80, lines = 40 }
-padding    = { x = 2, y = 0 }
-title      = "Terminal"
+decorations_theme_variant = "Dark"
+dimensions                = { columns = 80, lines = 40 }
+padding                   = { x = 2, y = 0 }
+title                     = "Terminal"
 
 [mouse]
 hide_when_typing = true
