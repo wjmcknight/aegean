@@ -1,5 +1,8 @@
-# Base16 Helios 256 - alacritty color config
+# Base16 Helios - alacritty color config
 # Alex Meyer (https://github.com/reyemxela)
+
+[colors]
+draw_bold_text_with_bright_colors = false
 
 # Default colors
 [colors.primary]
@@ -25,34 +28,10 @@ white = '0xd5d5d5'
 # Bright colors
 [colors.bright]
 black = '0x6f7579'
-red = '0xd72638'
-green = '0x88b92d'
-yellow = '0xf19d1a'
-blue = '0x1e8bac'
-magenta = '0xbe4264'
-cyan = '0x1ba595'
+red = '0xeb8413'
+green = '0x383c3e'
+yellow = '0x53585b'
+blue = '0xcdcdcd'
+magenta = '0xdddddd'
+cyan = '0xc85e0d'
 white = '0xe5e5e5'
-
-[[colors.indexed_colors]]
-index = 16
-color = "0xeb8413"
-
-[[colors.indexed_colors]]
-index = 17
-color = "0xc85e0d"
-
-[[colors.indexed_colors]]
-index = 18
-color = "0x383c3e"
-
-[[colors.indexed_colors]]
-index = 19
-color = "0x53585b"
-
-[[colors.indexed_colors]]
-index = 20
-color = "0xcdcdcd"
-
-[[colors.indexed_colors]]
-index = 21
-color = "0xdddddd"
