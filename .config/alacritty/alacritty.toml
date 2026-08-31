@@ -18,4 +18,4 @@ title                     = "Terminal"
 hide_when_typing = true
 
 [general]
-import = ["~/.config/alacritty/colors/base16-eighties-256.toml"]
+import = ["~/.config/alacritty/colors/base16-rose-pine-moon-256.toml"]
