@@ -71,8 +71,7 @@ vim.o.number = true
 
 -- Enable syntax highlighting
 vim.o.syntax = on
-require("rose-pine").setup()
-vim.cmd("colorscheme rose-pine")
+vim.cmd("colorscheme base16-rose-pine-moon")
 
 -- Set UTF8 as standard encoding
 vim.o.encoding = "utf8"
