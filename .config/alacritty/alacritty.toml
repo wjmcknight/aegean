@@ -18,4 +18,4 @@ title                     = "Terminal"
 hide_when_typing = true
 
 [general]
-import = ["~/.config/alacritty/colors/base16-eighties.toml"]
+import = ["~/.config/alacritty/colors/base16-gruvbox-dark-medium.toml"]
